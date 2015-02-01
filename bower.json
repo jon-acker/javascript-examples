@@ -1,0 +1,24 @@
+{
+  "name": "javascript-examples",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jon-acker/javascript-examples",
+  "authors": [
+    "Jon Acker <jacker@inviqa.com>"
+  ],
+  "description": "Javascript examples",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.15"
+  }
+}
