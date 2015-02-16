@@ -1,7 +1,3 @@
-define(['config'], function() {
-
-    require(['acme/ui/favourites'], function(favouritesUi) {
-
-    });
-
+require(['acme/ui/favourites'], function(favouritesUi) {
+    console.log(favouritesUi);
 });
