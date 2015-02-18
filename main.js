@@ -1,3 +1,3 @@
-require(['acme/ui/favourites'], function(favouritesUi) {
-    console.log(favouritesUi);
+require(['acme/ui/similarArtists/inputHandler'], function(inputHandler) {
+
 });

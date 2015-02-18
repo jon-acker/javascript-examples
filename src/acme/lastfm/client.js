@@ -10,6 +10,10 @@ define(['jquery'], function ($) {
     return {
         getSimilar: function(artistName) {
             return _get('method=artist.getSimilar&artist=' + artistName)
+        },
+        getInfo: function(artistName) {
+            return _get('method=artist.getInfo&artist=' + artistName)
+
         }
     }
 });

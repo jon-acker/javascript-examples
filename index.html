@@ -1,4 +1,17 @@
-<script src="bower_components/requirejs/require.js" data-main="config.js"></script>
+<html>
+<head>
+    <link href="styles/main.css" rel="stylesheet"/>
+    <script src="bower_components/requirejs/require.js" data-main="config.js"></script>
+</head>
 
-<input name="artistName" id="artist-name"/>
-<button id="artist-find">Find Similar</button>
+<body>
+    <div id="search">
+        <input name="artistName"/>
+        <button>Find Similar</button>
+    </div>
+
+    <div id="list"></div>
+    <div id="artist"></div>
+</body>
+
+</html>
