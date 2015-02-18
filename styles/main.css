@@ -1,0 +1,33 @@
+#list {
+    float: left;
+}
+#list {
+    float: left;
+}
+
+#list ul {
+    list-style: none;
+}
+
+#list li {
+    font-family: "courier", "courier new";
+    font-size: 12px;
+    width: 200px;
+    padding: 5px;
+}
+
+li {
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+#artist {
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 600px;
+    margin-left: 60px;
+}
